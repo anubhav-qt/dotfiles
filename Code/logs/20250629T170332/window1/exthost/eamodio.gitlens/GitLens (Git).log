@@ -1,5 +1,0 @@
-2025-06-29 17:03:41.852 [info] [2025-06-29 11:33:41.744] [        415ms] [/home/ero/.config/hypr] git rev-parse --show-toplevel • FAILED
-2025-06-29 17:03:41.852 [info] 
-Error: fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-

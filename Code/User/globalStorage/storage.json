@@ -46,7 +46,7 @@
             "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 170,
-            "auxiliarySideBarWidth": 0,
+            "auxiliarySideBarWidth": 421,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -59,7 +59,7 @@
                 "mode": 1,
                 "x": 6,
                 "y": 42,
-                "width": 1858,
+                "width": 1908,
                 "height": 1032
             }
         },
@@ -68,7 +68,7 @@
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
             "sideBarWidth": 170,
-            "auxiliaryBarWidth": 240,
+            "auxiliaryBarWidth": 421,
             "workspaces": {
                 "51d99c8701b9e372214e733b4cf62f50": {
                     "sideBarVisible": true,
@@ -80,7 +80,7 @@
                 },
                 "31066ed9ac351c7c5a13a8188e43415f": {
                     "sideBarVisible": true,
-                    "auxiliaryBarVisible": false
+                    "auxiliaryBarVisible": true
                 },
                 "72262dee4d4fcb4a9f3bde28e6db7f0d": {
                     "sideBarVisible": true,

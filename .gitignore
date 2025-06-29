@@ -1,0 +1,179 @@
+# .config folder gitignore
+# This file helps manage which configuration files should be tracked in git
+
+# =============================================================================
+# APPLICATION DATA & CACHES
+# =============================================================================
+
+# VS Code / Electron apps
+Code/
+Electron/
+discord/
+Unknown Organization/
+
+# Browser data
+falkon/
+
+# Development tools cache
+go/
+configstore/
+
+# Package manager cache
+yay/
+
+# =============================================================================
+# SYSTEM & SESSION FILES
+# =============================================================================
+
+# KDE/Plasma session and runtime files
+session/
+kded5rc
+kded6rc
+ksmserverrc
+plasma-org.kde.plasma.desktop-appletsrc
+kwinoutputconfig.json
+powermanagementprofilesrc
+plasmanotifyrc
+plasmashellrc
+plasmarc
+plasma-welcomerc
+plasma-localerc
+
+# KDE activity manager (contains usage stats)
+kactivitymanagerd*
+kalarmrc
+
+# Akonadi (KDE PIM framework) - contains personal data
+akonadi/
+akonadi*rc
+emaildefaults
+emailidentities
+specialmailcollectionsrc
+
+# KDE configuration that's machine/user specific
+kdeglobals
+kglobalshortcutsrc
+kconf_updaterc
+kcminputrc
+kwalletrc
+ktimezonedrc
+
+# Balloo file indexer
+baloofilerc
+
+# Bluetooth
+bluedevilglobalrc
+
+# KDE Connect (device-specific)
+kdeconnect/
+kde.org/
+
+# Default applications (system-specific)
+mimeapps.list
+filetypesrc
+
+# User directories (system-specific)
+user-dirs.dirs
+user-dirs.locale
+
+# Audio settings (device-specific)
+pavucontrol.ini
+pulse/
+
+# Display settings (hardware-specific)
+autorandr/
+
+# =============================================================================
+# RUNTIME & TEMPORARY FILES
+# =============================================================================
+
+# dconf database (binary format, system-specific)
+dconf/
+
+# Application-specific runtime data
+libaccounts-glib/
+
+# GTK settings (often auto-generated)
+gtkrc*
+gtk-*/
+
+# Qt settings
+Trolltech.conf
+
+# Konsole SSH configurations (may contain sensitive data)
+konsolesshconfig
+
+# =============================================================================
+# LOGS & DEBUGGING
+# =============================================================================
+
+# Any log files
+*.log
+*.log.*
+
+# Crash dumps
+core
+*.core
+
+# Debug files
+*.debug
+
+# =============================================================================
+# TEMPORARY & BACKUP FILES
+# =============================================================================
+
+# Backup files
+*.bak
+*.backup
+*~
+.#*
+#*#
+
+# Temporary files
+*.tmp
+*.temp
+.*.swp
+.*.swo
+
+# =============================================================================
+# WHAT TO KEEP (explicitly not ignored)
+# =============================================================================
+
+# Window managers and desktop environments configs
+!hypr/
+!i3/
+!i3status/
+!waybar/
+!polybar/
+!rofi/
+!picom/
+!conky/
+!mako/
+!nitrogen/
+
+# Terminal configurations
+!kitty/
+
+# System monitoring
+!btop/
+
+# Useful utilities
+!fastfetch/
+!xsettingsd/
+
+# Keep konsole config but not SSH configs
+!konsolerc
+konsolesshconfig
+
+# Keep KDE defaults but not user-specific data
+!kdedefaults/
+
+# Keep discover settings
+!discoverrc
+!spectaclerc
+
+# =============================================================================
+# SECURITY NOTE
+# =============================================================================
+# Always review files before committing to ensure no sensitive data
+# (passwords, tokens, personal information) is being tracked
