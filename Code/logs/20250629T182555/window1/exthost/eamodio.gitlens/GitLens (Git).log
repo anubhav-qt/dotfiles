@@ -1,0 +1,85 @@
+2025-06-29 18:26:03.816 [info] [2025-06-29 12:56:03.661] [        498ms] [/home/ero/.config/hypr] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:26:03.816 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:26:54.981 [info] [2025-06-29 12:56:54.981] [         49ms] [/home/ero/.config/waybar] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:26:54.981 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:37:03.674 [info] [2025-06-29 13:07:03.410] [         74ms] [/home/ero/.config/waybar] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:37:03.674 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:37:23.143 [info] [2025-06-29 13:07:22.832] [        296ms] [/home/ero/.config] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:37:23.144 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:37:24.499 [info] [2025-06-29 13:07:24.499] [         41ms] [/home/ero/.config/hypr] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:37:24.499 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:37:51.305 [info] [2025-06-29 13:07:51.304] [         54ms] [/home/ero/.config/hypr/scripts] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:37:51.305 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:52.166 [info] [2025-06-29 13:08:52.166] [         60ms] [/home/ero/.config/waybar] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:52.166 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:52.949 [info] [2025-06-29 13:08:52.949] [         40ms] [/home/ero/.config/waybar] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:52.949 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.100 [info] [2025-06-29 13:08:59.099] [         52ms] [/home/ero/.config/discord/0.0.99/modules/discord_game_utils] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.100 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.154 [info] [2025-06-29 13:08:59.153] [         52ms] [/home/ero/.config/discord/0.0.99/modules/discord_spellcheck] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.154 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.209 [info] [2025-06-29 13:08:59.209] [         54ms] [/home/ero/.config/discord/0.0.99/modules/discord_utils] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.209 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.265 [info] [2025-06-29 13:08:59.265] [         54ms] [/home/ero/.config/discord/0.0.99/modules/discord_zstd] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.265 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.319 [info] [2025-06-29 13:08:59.319] [         52ms] [/home/ero/.config/discord/0.0.99/modules/discord_rpc] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.319 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.371 [info] [2025-06-29 13:08:59.371] [         51ms] [/home/ero/.config/discord/0.0.99/modules/discord_krisp] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.371 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.427 [info] [2025-06-29 13:08:59.427] [         55ms] [/home/ero/.config/discord/0.0.99/modules/discord_voice] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.427 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.480 [info] [2025-06-29 13:08:59.480] [         52ms] [/home/ero/.config/discord/0.0.99/modules/discord_erlpack] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.480 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-06-29 18:38:59.530 [info] [2025-06-29 13:08:59.529] [         48ms] [/home/ero/.config/discord/0.0.99/modules/discord_desktop_core] git rev-parse --show-toplevel • FAILED
+2025-06-29 18:38:59.530 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+

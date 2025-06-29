@@ -1,0 +1,11 @@
+2025-06-29 23:17:49.065 [info] Started local extension host with pid 4324.
+2025-06-29 23:17:49.259 [info] ComputeTargetPlatform: linux-x64
+2025-06-29 23:17:49.759 [info] [google.geminicodeassist]: Command `geminicodeassist.sdlcagents.agentBoard` already registered by Gemini Code Assist (google.geminicodeassist)
+2025-06-29 23:17:51.765 [info] Settings Sync: Token updated for the account anubhav-qt
+2025-06-29 23:17:51.795 [info] Settings Sync: Account status changed from uninitialized to available
+2025-06-29 23:17:52.364 [info] [perf] Render performance baseline is 33ms
+2025-06-29 23:17:55.182 [info] Extension host (LocalProcess pid: 4324) is unresponsive.
+2025-06-29 23:17:56.675 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-06-29 23:17:56.753 [info] Extension host (LocalProcess pid: 4324) is responsive.
+2025-06-29 23:17:56.754 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-06-30 00:29:54.118 [error] Unable to load and parse grammar for scope code.log from file:///home/ero/.vscode/extensions/google.geminicodeassist-2.38.0/third_party/vscode-log-output-colorizer/src/syntaxes/log.tmLanguage Unable to read file '/home/ero/.vscode/extensions/google.geminicodeassist-2.38.0/third_party/vscode-log-output-colorizer/src/syntaxes/log.tmLanguage' (Error: Unable to resolve nonexistent file '/home/ero/.vscode/extensions/google.geminicodeassist-2.38.0/third_party/vscode-log-output-colorizer/src/syntaxes/log.tmLanguage')

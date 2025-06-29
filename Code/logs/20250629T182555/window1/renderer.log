@@ -1,0 +1,30 @@
+2025-06-29 18:25:56.819 [info] Started local extension host with pid 5227.
+2025-06-29 18:25:56.938 [info] ComputeTargetPlatform: linux-x64
+2025-06-29 18:25:57.298 [info] [google.geminicodeassist]: Command `geminicodeassist.sdlcagents.agentBoard` already registered by Gemini Code Assist (google.geminicodeassist)
+2025-06-29 18:25:59.663 [info] [perf] Render performance baseline is 32ms
+2025-06-29 18:26:02.712 [info] Settings Sync: Token updated for the account anubhav-qt
+2025-06-29 18:26:02.714 [info] Settings Sync: Account status changed from uninitialized to available
+2025-06-29 18:27:06.756 [info] Extension host (LocalProcess pid: 5227) is unresponsive.
+2025-06-29 18:27:08.934 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-06-29 18:27:09.658 [info] Extension host (LocalProcess pid: 5227) is responsive.
+2025-06-29 18:27:09.659 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-06-29 18:27:09.787 [warning] UNRESPONSIVE extension host: 'github.copilot' took 82.83833940524059% of 605.062ms, saved PROFILE here: 'file:///tmp/exthost-c903ec.cpuprofile'
+2025-06-29 18:36:56.976 [info] Started local extension host with pid 9055.
+2025-06-29 18:36:57.090 [info] ComputeTargetPlatform: linux-x64
+2025-06-29 18:36:57.564 [info] [google.geminicodeassist]: Command `geminicodeassist.sdlcagents.agentBoard` already registered by Gemini Code Assist (google.geminicodeassist)
+2025-06-29 18:36:58.242 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-29 18:36:59.813 [info] [perf] Render performance baseline is 32ms
+2025-06-29 18:37:02.598 [info] Settings Sync: Token updated for the account anubhav-qt
+2025-06-29 18:37:02.599 [info] Settings Sync: Account status changed from uninitialized to available
+2025-06-29 18:37:14.750 [info] Started local extension host with pid 9294.
+2025-06-29 18:37:15.086 [info] ComputeTargetPlatform: linux-x64
+2025-06-29 18:37:15.712 [info] [google.geminicodeassist]: Command `geminicodeassist.sdlcagents.agentBoard` already registered by Gemini Code Assist (google.geminicodeassist)
+2025-06-29 18:37:17.778 [info] [perf] Render performance baseline is 35ms
+2025-06-29 18:37:20.078 [info] Extension host (LocalProcess pid: 9294) is unresponsive.
+2025-06-29 18:37:21.400 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-06-29 18:37:22.086 [info] Extension host (LocalProcess pid: 9294) is responsive.
+2025-06-29 18:37:22.086 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-06-29 18:37:22.225 [info] Settings Sync: Token updated for the account anubhav-qt
+2025-06-29 18:37:22.385 [info] Settings Sync: Account status changed from uninitialized to available
+2025-06-29 18:37:22.521 [warning] UNRESPONSIVE extension host: 'google.geminicodeassist' took 46.076166476647636% of 322.905ms, saved PROFILE here: 'file:///tmp/exthost-470b72.cpuprofile'
+2025-06-29 18:38:52.094 [error] Unable to load and parse grammar for scope code.log from file:///home/ero/.vscode/extensions/google.geminicodeassist-2.38.0/third_party/vscode-log-output-colorizer/src/syntaxes/log.tmLanguage Unable to read file '/home/ero/.vscode/extensions/google.geminicodeassist-2.38.0/third_party/vscode-log-output-colorizer/src/syntaxes/log.tmLanguage' (Error: Unable to resolve nonexistent file '/home/ero/.vscode/extensions/google.geminicodeassist-2.38.0/third_party/vscode-log-output-colorizer/src/syntaxes/log.tmLanguage')

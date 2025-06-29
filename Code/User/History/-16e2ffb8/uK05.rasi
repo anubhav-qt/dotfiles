@@ -1,0 +1,204 @@
+configuration {
+    show-icons: false;
+    terminal: "alacritty";
+    drun-display-format: "{name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "";
+    display-run: "Run";
+    display-window: "Windows";
+    display-Network: "Network";
+    sidebar-mode: false;
+    font: "JetBrains Mono 12";
+}
+
+@theme "default"
+
+* {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+    border-color:               #ffffff;
+    separatorcolor:             transparent;
+    selected-normal-foreground: #000000;
+    selected-normal-background: #ffffff;
+    selected-active-foreground: #000000;
+    selected-active-background: #b8860b;
+    selected-urgent-foreground: #000000;
+    selected-urgent-background: #b8860b;
+    normal-foreground:          #ffffff;
+    normal-background:          transparent;
+    active-foreground:          #b8860b;
+    active-background:          transparent;
+    urgent-foreground:          #b8860b;
+    urgent-background:          transparent;
+    alternate-normal-foreground: #ffffff;
+    alternate-normal-background: transparent;
+    alternate-active-foreground: #b8860b;
+    alternate-active-background: transparent;
+    alternate-urgent-foreground: #b8860b;
+    alternate-urgent-background: transparent;
+}
+
+window {
+    transparency:               "real";
+    background-color:           #000000;
+    border:                     1px;
+    border-color:               #ffffff;
+    border-radius:              0px;
+    width:                      600px;
+    location:                   center;
+    anchor:                     center;
+}
+
+mainbox {
+    background-color:           transparent;
+    border:                     0px;
+    border-radius:              0px;
+    children:                   [ inputbar, listview ];
+    spacing:                    0px;
+    padding:                    20px;
+}
+
+inputbar {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+    border:                     0px 0px 1px 0px;
+    border-color:               #ffffff;
+    border-radius:              0px;
+    padding:                    10px 0px 10px 0px;
+    margin:                     0px 0px 20px 0px;
+    children:                   [ prompt, textbox-prompt-colon, entry ];
+}
+
+prompt {
+    background-color:           transparent;
+    text-color:                 #b8860b;
+    padding:                    0px 10px 0px 0px;
+}
+
+textbox-prompt-colon {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+    expand:                     false;
+    str:                        ":";
+    padding:                    0px 10px 0px 0px;
+}
+
+entry {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+    placeholder-color:          #666666;
+    expand:                     true;
+    horizontal-align:           0;
+    placeholder:                "Search...";
+    blink:                      true;
+}
+
+listview {
+    background-color:           transparent;
+    padding:                    0px;
+    columns:                    1;
+    lines:                      8;
+    spacing:                    5px;
+    cycle:                      true;
+    dynamic:                    true;
+    layout:                     vertical;
+    scrollbar:                  false;
+    fixed-height:               false;
+}
+
+element {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+    border-radius:              0px;
+    padding:                    10px;
+    border:                     0px;
+}
+
+element normal.normal {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+}
+
+element normal.urgent {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+}
+
+element normal.active {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+}
+
+element selected.normal {
+    background-color:           #ffffff;
+    text-color:                 #000000;
+    border:                     0px;
+}
+
+element selected.urgent {
+    background-color:           #ffffff;
+    text-color:                 #000000;
+}
+
+element selected.active {
+    background-color:           #ffffff;
+    text-color:                 #000000;
+}
+
+element alternate.normal {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+}
+
+element alternate.urgent {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+}
+
+element alternate.active {
+    background-color:           transparent;
+    text-color:                 #ffffff;
+}
+
+element-text {
+    background-color:           transparent;
+    cursor:                     inherit;
+    highlight:                  inherit;
+    text-color:                 inherit;
+}
+
+element-icon {
+    background-color:           transparent;
+    size:                       1.0000em;
+    cursor:                     inherit;
+    text-color:                 inherit;
+}
+
+mode-switcher {
+    enabled:                    true;
+    spacing:                    0px;
+    margin:                     0px;
+    padding:                    0px;
+    border:                     0px solid;
+    border-color:               @border-color;
+    border-radius:              0px;
+    background-color:           transparent;
+    text-color:                 @foreground-color;
+}
+
+button {
+    padding:                    5px 10px;
+    border:                     0px solid;
+    border-radius:              0px;
+    border-color:               @border-color;
+    background-color:           @background-color;
+    text-color:                 inherit;
+    cursor:                     pointer;
+}
+
+button selected {
+    background-color:           @selected-normal-background;
+    text-color:                 @selected-normal-foreground;
+}

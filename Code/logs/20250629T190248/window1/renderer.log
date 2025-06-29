@@ -1,0 +1,27 @@
+2025-06-29 19:02:50.523 [info] Started local extension host with pid 20646.
+2025-06-29 19:02:50.727 [info] ComputeTargetPlatform: linux-x64
+2025-06-29 19:02:51.227 [info] [google.geminicodeassist]: Command `geminicodeassist.sdlcagents.agentBoard` already registered by Gemini Code Assist (google.geminicodeassist)
+2025-06-29 19:02:53.907 [info] [perf] Render performance baseline is 32ms
+2025-06-29 19:02:56.031 [info] Extension host (LocalProcess pid: 20646) is unresponsive.
+2025-06-29 19:02:57.382 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-06-29 19:02:57.640 [info] Extension host (LocalProcess pid: 20646) is responsive.
+2025-06-29 19:02:57.640 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-06-29 19:02:57.715 [info] Settings Sync: Token updated for the account anubhav-qt
+2025-06-29 19:02:57.717 [info] Settings Sync: Account status changed from uninitialized to available
+2025-06-29 19:47:17.097 [error] [Extension Host] [AsyncCompletionManager] [46ab40c0-4a2e-4480-85ec-b872d9139e82] Request errored with AbortError: The operation was aborted.
+    at EventEmitter.abortHandler (/home/ero/.vscode/extensions/github.copilot-1.338.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at EventEmitter.emit (node:events:524:28)
+    at W1.dispatchEvent (/home/ero/.vscode/extensions/github.copilot-1.338.0/node_modules/@adobe/helix-fetch/src/fetch/abort.js:67:41)
+    at W1.fire (/home/ero/.vscode/extensions/github.copilot-1.338.0/node_modules/@adobe/helix-fetch/src/fetch/abort.js:72:10)
+    at Sz.abort (/home/ero/.vscode/extensions/github.copilot-1.338.0/node_modules/@adobe/helix-fetch/src/fetch/abort.js:137:39)
+    at /home/ero/.vscode/extensions/github.copilot-1.338.0/lib/src/networking.ts:254:19
+    at KZ.invoke (/home/ero/.vscode/extensions/github.copilot-1.338.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at e.fire (/home/ero/.vscode/extensions/github.copilot-1.338.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at q8.cancel (/home/ero/.vscode/extensions/github.copilot-1.338.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at VZ.cancel (/home/ero/.vscode/extensions/github.copilot-1.338.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ic.cancelRequest (/home/ero/.vscode/extensions/github.copilot-1.338.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ic.getFirstMatchingRequest (/home/ero/.vscode/extensions/github.copilot-1.338.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/ero/.vscode/extensions/github.copilot-1.338.0/lib/src/ghostText/ghostText.ts:978:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}

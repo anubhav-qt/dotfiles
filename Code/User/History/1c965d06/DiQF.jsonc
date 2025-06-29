@@ -1,0 +1,37 @@
+{
+    // Global options
+    "display": "auto", // or "neofetch" for columns, or "small" etc.
+    "color": {
+        "key": "green",
+        "value": "blue",
+        "separator": "yellow"
+    },
+    "logo": {
+        "type": "auto" // "auto", "kitty", "ascii", "image", "file"
+        // "source": "/path/to/your/image.png", // For "image" or "file" type
+        // "color": "blue" // For ascii logo, if not using logo colors
+    },
+
+    // Define the modules to display
+    "modules": [
+        "os",
+        "host",
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        "break", // Adds a line break
+        "cpu",
+        "gpu",
+        "memory",
+        "disk",
+        "battery",
+        "break",
+        "locale",
+        "theme",
+        "icons",
+        "terminal",
+        "break",
+        "colors" // Shows your terminal's color palette
+    ]
+}

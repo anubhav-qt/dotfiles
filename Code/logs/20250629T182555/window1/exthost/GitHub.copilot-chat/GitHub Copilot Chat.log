@@ -1,0 +1,39 @@
+2025-06-29 18:26:03.816 [info] Using the Electron fetcher.
+2025-06-29 18:26:03.816 [info] Initializing Git extension service.
+2025-06-29 18:26:03.816 [info] Successfully activated the vscode.git extension.
+2025-06-29 18:26:03.816 [info] Enablement state of the vscode.git extension: true.
+2025-06-29 18:26:03.816 [info] Successfully registered Git commit message provider.
+2025-06-29 18:26:04.979 [info] Logged in as anubhav-qt
+2025-06-29 18:26:05.997 [info] Got Copilot token for anubhav-qt
+2025-06-29 18:26:06.090 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-06-29 18:26:06.090 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-06-29 18:26:06.099 [info] Registering default platform agent...
+2025-06-29 18:26:06.134 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-29 18:26:06.876 [info] Fetched model metadata in 863ms dc76f208-85cb-46b6-9c50-448db98cf6df
+2025-06-29 18:26:07.148 [info] activationBlocker from 'languageModelAccess' took for 3302ms
+2025-06-29 18:37:03.666 [info] Using the Electron fetcher.
+2025-06-29 18:37:03.666 [info] Initializing Git extension service.
+2025-06-29 18:37:03.666 [info] Successfully activated the vscode.git extension.
+2025-06-29 18:37:03.666 [info] Enablement state of the vscode.git extension: true.
+2025-06-29 18:37:03.666 [info] Successfully registered Git commit message provider.
+2025-06-29 18:37:05.635 [info] Logged in as anubhav-qt
+2025-06-29 18:37:06.771 [info] Got Copilot token for anubhav-qt
+2025-06-29 18:37:06.872 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-06-29 18:37:06.872 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-06-29 18:37:06.881 [info] Registering default platform agent...
+2025-06-29 18:37:06.917 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-29 18:37:07.655 [info] Fetched model metadata in 866ms f9bf76f7-2333-4fd5-8bf7-d4efae630314
+2025-06-29 18:37:07.929 [info] activationBlocker from 'languageModelAccess' took for 3564ms
+2025-06-29 18:37:23.144 [info] Using the Electron fetcher.
+2025-06-29 18:37:23.144 [info] Initializing Git extension service.
+2025-06-29 18:37:23.144 [info] Successfully activated the vscode.git extension.
+2025-06-29 18:37:23.144 [info] Enablement state of the vscode.git extension: true.
+2025-06-29 18:37:23.144 [info] Successfully registered Git commit message provider.
+2025-06-29 18:37:24.363 [info] Logged in as anubhav-qt
+2025-06-29 18:37:25.463 [info] Got Copilot token for anubhav-qt
+2025-06-29 18:37:25.520 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-06-29 18:37:25.520 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-06-29 18:37:25.526 [info] Registering default platform agent...
+2025-06-29 18:37:25.568 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-29 18:37:25.783 [info] Fetched model metadata in 311ms f2ac0b15-37a2-4b21-8502-a0715eb4361c
+2025-06-29 18:37:25.786 [info] activationBlocker from 'languageModelAccess' took for 2173ms

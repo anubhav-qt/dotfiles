@@ -1,0 +1,92 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "18d4f8d818f9d98b575ae8d85c4ac2bcb8c22d35ed7d3d5be59bb712531d179c",
+    "telemetry.devDeviceId": "b47fc752-8840-4801-a665-2f8fc4dd061d",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/ero/.config"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/kestrel/Desktop/projects": "__default__profile__",
+            "file:///home/kestrel/.config": "__default__profile__",
+            "file:///home/ero/.config": "__default__profile__",
+            "file:///home/ero/.config/waybar": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/ero/.config",
+            "backupPath": "/home/ero/.config/Code/Backups/7bb7e24765692c4f1f4c0aaf02760fd9",
+            "uiState": {
+                "mode": 1,
+                "x": 6,
+                "y": 42,
+                "width": 1858,
+                "height": 1032
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 240,
+            "workspaces": {
+                "51d99c8701b9e372214e733b4cf62f50": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d57e8baa38445f46df61d590d51de267": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "31066ed9ac351c7c5a13a8188e43415f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "72262dee4d4fcb4a9f3bde28e6db7f0d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

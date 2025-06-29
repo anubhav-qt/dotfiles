@@ -1,0 +1,18 @@
+2025-06-29 18:52:46.390 [error] Error: The editor could not be opened because the file was not found.
+    at wSe.gc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:120185)
+    at async wSe.setInput (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2163:119343)
+    at async JHe.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:19756)
+    at async JHe.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:18311)
+    at async JHe.openEditor (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:685:17393)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:797:23342
+2025-06-29 18:52:46.470 [info] Started local extension host with pid 16998.
+2025-06-29 18:52:46.641 [info] ComputeTargetPlatform: linux-x64
+2025-06-29 18:52:47.039 [info] [google.geminicodeassist]: Command `geminicodeassist.sdlcagents.agentBoard` already registered by Gemini Code Assist (google.geminicodeassist)
+2025-06-29 18:52:49.367 [info] [perf] Render performance baseline is 33ms
+2025-06-29 18:52:52.505 [info] Settings Sync: Token updated for the account anubhav-qt
+2025-06-29 18:52:52.507 [info] Settings Sync: Account status changed from uninitialized to available
+2025-06-29 18:53:57.000 [info] Extension host (LocalProcess pid: 16998) is unresponsive.
+2025-06-29 18:53:59.245 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-06-29 18:53:59.817 [info] Extension host (LocalProcess pid: 16998) is responsive.
+2025-06-29 18:53:59.817 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-06-29 18:53:59.969 [warning] UNRESPONSIVE extension host: 'github.copilot' took 77.69864194569868% of 447.064ms, saved PROFILE here: 'file:///tmp/exthost-cc9b85.cpuprofile'
