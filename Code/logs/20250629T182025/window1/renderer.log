@@ -1,6 +1,0 @@
-2025-06-29 18:20:26.683 [info] Started local extension host with pid 2579.
-2025-06-29 18:20:26.793 [info] ComputeTargetPlatform: linux-x64
-2025-06-29 18:20:27.178 [info] [google.geminicodeassist]: Command `geminicodeassist.sdlcagents.agentBoard` already registered by Gemini Code Assist (google.geminicodeassist)
-2025-06-29 18:20:29.609 [info] [perf] Render performance baseline is 34ms
-2025-06-29 18:20:32.620 [info] Settings Sync: Token updated for the account anubhav-qt
-2025-06-29 18:20:32.622 [info] Settings Sync: Account status changed from uninitialized to available

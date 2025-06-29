@@ -5,11 +5,23 @@
 # APPLICATION DATA & CACHES
 # =============================================================================
 
-# VS Code / Electron apps
+# VS Code / Electron apps - these contain large binary files and cache
 Code/
 Electron/
 discord/
 Unknown Organization/
+
+# VS Code specific large files (if Code/ folder gets through)
+Code/CachedExtensionVSIXs/
+Code/extensions/
+Code/logs/
+Code/CachedData/
+Code/User/workspaceStorage/
+Code/User/History/
+
+# Discord large binary files
+discord/*/modules/
+discord/*/*/modules/
 
 # Browser data
 falkon/

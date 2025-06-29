@@ -1,9 +1,0 @@
-2025-06-30 00:33:58.781 [info] [certificates] Removed 1 expired certificates
-2025-06-30 00:33:59.776 [info] [fetcher] Using Helix fetcher.
-2025-06-30 00:33:59.776 [info] [code-referencing] Public code references are enabled.
-2025-06-30 00:34:00.684 [info] [fetcher] Using Helix fetcher.
-2025-06-30 00:34:05.927 [warning] [relatedFiles] unknown language properties
-2025-06-30 00:34:06.700 [info] [fetchCompletions] Request 5c65901c-199e-486d-9ec7-136b661e64ad at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 741.9299729999984ms
-2025-06-30 00:34:06.707 [info] [streamChoices] solution 0 returned. finish reason: [stop]
-2025-06-30 00:34:07.148 [info] [fetchCompletions] Request 08781a19-771c-457d-832d-3b5a0631599c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 421.4343509999999ms
-2025-06-30 00:34:07.152 [info] [streamChoices] solution 0 returned. finish reason: [null]
