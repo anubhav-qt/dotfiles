@@ -1,0 +1,84 @@
+[global]
+    # General appearance - minimal and clean
+    width = 380
+    height = 70
+    origin = top-right
+    offset = 20x20
+    gap_size = 12
+    corner_radius = 16
+
+    # Premium transparency - increased for better effect
+    transparency = 50
+
+    # Font settings - premium typography
+    font = FiraCode Nerd Font 12
+    line_height = 3
+    horizontal_padding = 20
+    vertical_padding = 16
+
+    # Visual elements - premium styling
+    frame_width = 1
+    frame_color = "#A08FA0"
+    separator_height = 0
+
+    # Icon settings - refined
+    max_icon_size = 52
+    icon_position = left
+
+    # Text formatting - premium presentation
+    markup = full
+    format = "<b>%s</b>\n<i>%b</i>"
+    word_wrap = yes
+    ellipsize = end
+    alignment = left
+
+    # Behavior - smooth premium experience
+    show_age_threshold = -1
+    sticky_history = yes
+    history_length = 15
+    fade_in = yes
+    idle_threshold = 0
+
+    # Actions - refined interaction
+    enable_rpc = true
+    mouse_left_click = close_current
+    mouse_middle_click = do_action
+    mouse_right_click = close_all
+
+    # Premium close button
+    show_indicators = yes
+
+    # Progress bar - premium aesthetic with explicit pink
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 180
+    progress_bar_max_width = 340
+    progress_bar_corner_radius = 4
+    progress_bar_background_color = "#3A3545"
+    progress_bar_foreground_color = "#E8C4E8"
+    progress_bar_frame_color = "#A08FA0"
+    highlight = "#E8C4E8"
+
+    browser = xdg-open
+
+[urgency_low]
+    # More transparent background
+    background = "#4A445880"
+    foreground = "#F2E8F2"
+    frame_color = "#7A6B7A"
+    timeout = 10
+
+[urgency_normal]
+    # More transparent background
+    background = "#4A445880"
+    foreground = "#F8F0F8"
+    frame_color = "#A08FA0"
+    timeout = 15
+
+[urgency_critical]
+    # More transparent background
+    background = "#5A4A5880"
+    foreground = "#FFF5FF"
+    frame_color = "#D4A5D4"
+    timeout = 0

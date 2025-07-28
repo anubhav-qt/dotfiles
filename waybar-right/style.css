@@ -1,0 +1,58 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 16px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: #cdd6f4; /* Catppuccin Macchiato Text */
+  border-radius: 15px;
+  transition: background-color 0.5s ease;
+}
+
+window#waybar:hover {
+  background: rgba(40, 40, 40, 0.5); /* Semi-transparent dark background */
+}
+
+#workspaces button {
+  padding: 5px;
+  color: #cdd6f4;
+}
+
+#workspaces button.active {
+  color: #89b4fa; /* Catppuccin Macchiato Blue */
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
+#custom-spotify {
+  color: #a6e3a1; /* Catppuccin Macchiato Green */
+  padding: 5px 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+window#waybar:hover #custom-spotify {
+  opacity: 1;
+}
+
+#custom-padd {
+  padding: 0px 20px;
+}
+
+#tray,
+#clock,
+#battery,
+#pulseaudio,
+#network {
+  padding: 5px 10px;
+  margin: 0 3px;
+}

@@ -1,0 +1,45 @@
+window {
+  background-color: rgba(30, 30, 46, 0.95);
+  border: 2px solid #f5c2e7;
+  border-radius: 8px;
+  margin: 0px;
+}
+
+#outer-box {
+  margin: 5px;
+}
+
+#inner-box {
+  background-color: transparent;
+  margin: 0px;
+}
+
+#entry {
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+#entry:selected {
+  background-color: rgba(180, 190, 254, 0.4);
+}
+
+#text {
+  color: #cdd6f4;
+  margin: 0px 10px;
+}
+
+#text:selected {
+  color: #ffffff;
+}
+
+/* Completely hide search input */
+#input,
+#search {
+  display: none !important;
+  opacity: 0;
+  border: 0;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  height: 0;
+}

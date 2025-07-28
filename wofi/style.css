@@ -1,0 +1,101 @@
+/* ~/.config/wofi/style.css */
+
+/* --- General Wofi Window Styling --- */
+window {
+  /* Main background color for the Wofi window */
+  background-color: rgba(
+    58,
+    55,
+    69,
+    0.35
+  ); /* Dark purplish-grey from wallpaper */
+
+  /* Make the window transparent if you want the wallpaper to show through slightly */
+  /* background-color: rgba(58, 55, 69, 0.95); */ /* Example with 95% opacity */
+
+  /* Rounded corners for the entire Wofi window */
+  border-radius: 7px; /* Your desired rounded corner value */
+
+  /* Minimal border (optional, can be removed) */
+  border: 1px solid #5e596b; /* Darker grey/purple for subtle border */
+
+  /* Padding around the content inside the window */
+  padding: 10px;
+}
+
+/* --- Input Field Styling (where you type) --- */
+#input {
+  background-color: rgba(71, 79, 107, 0.7); /* Dark blue from mug */
+  color: #ffffff; /* White for text */
+  border-radius: 7px; /* Match overall rounding */
+  padding: 8px 12px;
+  margin-bottom: 10px; /* Space between input and list */
+  border: none; /* No extra border on the input field */
+  font-size: 1em;
+  font-family: "FiraCode Nerd Font", "monospace"; /* Example font, pick one installed on your system */
+}
+
+/* --- Scrollbar Styling (if needed, minimal) --- */
+#scroll {
+  border: none;
+}
+
+#scroll slider {
+  background-color: #b27b7a; /* Reddish-brown accent for the scrollbar handle */
+  border-radius: 5px; /* Rounded scrollbar handle */
+}
+
+/* --- Outer Box containing the List of Entries --- */
+#outer-box {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* --- Inner Box containing the Entries --- */
+#inner-box {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* --- Entry Styling (each application/item in the list) --- */
+#entry {
+  padding: 8px 12px;
+  margin: 3px 0px; /* Space between entries */
+  border-radius: 5px; /* Slightly less rounded than window for distinction */
+  color: #ffffff; /* Default text color */
+  font-size: 1em;
+  font-family: "FiraCode Nerd Font", "monospace"; /* Consistent font */
+}
+
+/* --- Entry Styling when Hovered/Selected --- */
+#entry:selected {
+  background-color: rgba(
+    71,
+    79,
+    107,
+    0.7
+  ); /* Dark blue from mug for selected item */
+  color: #ffffff; /* White text on selected */
+  border: 1px solid #b27b7a; /* Reddish-brown accent border on selected */
+}
+
+/* --- Text Inside Entries (labels like 'firefox', 'terminal') --- */
+#text {
+  /* No specific styling needed here unless you want to override font/color only for text */
+}
+
+/* --- Icon Styling Inside Entries (if you want to resize/style icons) --- */
+#img {
+  /* If you want to change icon size or margins, e.g.: */
+  /* min-width: 24px; */
+  /* min-height: 24px; */
+  /* margin-right: 10px; */
+}
+
+/* --- Placeholder Text in Input Field --- */
+#input:empty {
+  /* Styles for when the input field is empty */
+  color: #9c97a6; /* Lighter grey for placeholder text */
+}

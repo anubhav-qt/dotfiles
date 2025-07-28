@@ -1,14 +1,35 @@
 * {
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 14px;
+  min-height: 0;
   border: none;
   border-radius: 0;
-  font-family: "JetBrains Mono", "Font Awesome 6 Free";
-  font-size: 10px;
-  min-height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 window#waybar {
   background: rgba(0, 0, 0, 0);
+  color: #cdd6f4;
+  border-radius: 12px;
+  border: 2px solid rgba(180, 190, 254, 0.2);
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  padding-right: 8px; /* Added padding to the right side */
+}
+
+#custom-logo {
+  font-size: 20px;
   color: #ffffff;
+  padding-left: 40px;
+  padding-right: 12px;
+}
+
+#custom-power {
+  color: #f38ba8;
+  font-size: 18px;
+  padding: 0 8px;
+  margin-right: 32px;
 }
 
 /* Workspaces */
@@ -20,41 +41,54 @@ window#waybar {
 }
 
 #workspaces button {
-  background: rgba(0, 0, 0, 0);
-  color: #cccccc;
-  padding: 8px 12px;
-  margin: 0 4px;
-  border-radius: 4px;
+  color: #6c7086;
+  background: transparent;
+  border-radius: 8px;
+  margin: 4px 0px;
+  padding: 0 6px;
   transition: all 0.3s ease;
 }
 
 #workspaces button.active {
-  background: #ffffff;
-  color: #000000;
+  color: #cdd6f4;
+  background: rgba(180, 190, 254, 0.2);
+  box-shadow: inset 0 -2px #f5c2e7;
 }
 
 #workspaces button:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  color: #f5c2e7;
+  background: rgba(180, 190, 254, 0.1);
 }
 
 /* Center modules */
 #clock.time {
-  background: rgba(0, 0, 0, 0);
+  color: #f5c2e7;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#clock.date {
+  color: #f5c2e7;
+  font-size: 16px;
+  padding: 0 8px;
+}
+
+/* Spotify module - truly minimal with no box */
+#custom-spotify {
+  background: transparent;
   color: #ffffff;
-  padding: 8px 16px;
-  border-radius: 8px;
-  font-size: 11px;
-  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 400;
+  border: none;
 }
 
 /* Right modules */
 #cpu,
 #memory,
 #network,
-#battery,
-#clock.date {
-  background: rgba(0, 0, 0, 0);
+#battery {
   color: #ffffff;
   padding: 6px 12px;
   margin: 0 4px;
@@ -62,36 +96,97 @@ window#waybar {
   font-size: 9px;
 }
 
-#cpu.warning,
-#memory.warning {
-  color: #ffaa00;
+#cpu {
+  color: #f9e2af;
+  font-size: 16px;
+  padding: 0 4px;
 }
 
-#cpu.critical,
-#memory.critical {
-  color: #ff4444;
+#memory {
+  color: #89b4fa;
+  font-size: 16px;
+  padding: 0 4px;
 }
 
-#battery.warning {
-  color: #ffaa00;
-}
-
-#battery.critical {
-  color: #ff4444;
+#network {
+  color: #94e2d5;
+  font-size: 16px;
+  padding: 0 4px;
 }
 
 #network.disconnected {
-  color: #ff4444;
+  color: #f38ba8;
+}
+
+#battery {
+  color: #a6e3a1;
+  font-size: 16px;
+  padding: 0 0 0 4px;
+}
+
+#battery.warning {
+  color: #f9e2af;
+}
+
+#battery.critical {
+  color: #f38ba8;
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  to {
+    color: #cdd6f4;
+  }
 }
 
 /* Tooltips */
 tooltip {
-  background: rgba(17, 17, 17, 0.9);
-  color: #ffffff;
+  background: rgba(30, 30, 46, 0.95);
+  border: 2px solid #f5c2e7;
   border-radius: 8px;
-  border: 1px solid #444444;
 }
 
 tooltip label {
-  color: #ffffff;
+  color: #cdd6f4;
+}
+
+/* Add a subtle hover effect to all modules */
+#battery,
+#cpu,
+#memory,
+#network,
+#clock,
+#custom-power {
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  padding: 0 4px;
+  margin: 4px 2px;
+}
+
+/* Special styling for logo to prevent conflicts */
+#custom-logo {
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+/* Override for power button to fix alignment */
+#custom-power {
+  padding: 0 8px;
+  margin-right: 32px;
+  border-radius: 8px;
+}
+
+/* Override for date to fix alignment */
+#clock.date {
+  padding: 0 8px;
+}
+
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#network:hover,
+#clock:hover,
+#custom-logo:hover,
+#custom-power:hover {
+  background: rgba(180, 190, 254, 0.1);
 }
